@@ -21,7 +21,7 @@ public class Calculator {
     public void sumArray(int[] numbers){
         int sum = 0;
         for(int num: numbers){
-            sum += sum;
+            sum += num;
         }
         System.out.printf("Sum: %d", sum);
     }
